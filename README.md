@@ -14,7 +14,11 @@ LED Sign is a Raspberry Pi Pico W project that
 
 ### Wiring circuit overview (schematic)
 
-<img src="docs/wiring-circuit-led-sign.svg" alt="Schematic wiring circuit of the LED-Sign" width="800"/>
+<img src="./docs/wiring-circuit-led-sign.svg" alt="Schematic wiring circuit of the LED-Sign" width="800"/>
+
+### Caseing drawings
+
+<img src="./docs/led-sign-manufacturing-drawings.svg" alt="Manufacturing drawings of the caseing for the LED-Sign" width="800"/>
 
 ## Quick start
 
