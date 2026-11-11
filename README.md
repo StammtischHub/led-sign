@@ -14,7 +14,44 @@ LED Sign is a Raspberry Pi Pico W project that
 
 ### Wiring circuit overview (schematic)
 
-<img src="docs/wiring-circuit-led-sign.svg" alt="Schematic wiring circuit of the LED-Sign" width="800"/>
+<img src="./docs/wiring-circuit-led-sign.svg" alt="Schematic wiring circuit of the LED-Sign" width="800"/>
+
+### Caseing drawings
+
+<img src="./docs/led-sign-manufacturing-drawings.svg" alt="Manufacturing drawings of the caseing for the LED-Sign" width="800"/>
+
+### Building it
+
+1. Build the Caseing
+
+Begin by machining the wooden block. Saw and mill the workpiece according to the provided drawing and the specified dimensions.
+
+After machining, it is recommended to sand all edges and surfaces to remove splinters and give the enclosure a clean finish.
+
+2. Solder the Electronics
+
+Once the enclosure is prepared, the electronics can be assembled. Solder all components together according to the circuit diagram. Connect the Raspberry Pi Pico, the LED strip, and the ultrasonic sensor following the specified pin assignments.
+
+3. Install the Components
+
+After successfully testing the electronics, they can be mounted inside the enclosure.
+
+The LED strip is installed directly beneath the slot on the top side. Both hot glue and duct tape are suitable mounting options. It is important that the strip is positioned as centrally as possible beneath the slot so that the acrylic panel is illuminated evenly.
+
+The Raspberry Pi Pico can be positioned using the designated opening for the USB cable. The USB-C connector serves as a practical mounting point, ensuring that the controller remains securely in place while still being easily accessible for programming and power supply. In most cases, no additional fastening is required, as the USB connection holds the Raspberry Pi very securely.
+
+The sensor mounting holes are designed as a press fit. Therefore, the sensor can be inserted directly and will usually remain firmly in place without any additional fixation.
+
+Finally, insert the acrylic panel into the designated groove.
+Make sure that the motif or engraving is aligned in the desired orientation.
+
+4. Customization
+
+The project can easily be adapted to individual requirements. The sign size is not limited to the dimensions provided in this repository.
+
+For example, the acrylic panel can also be installed in landscape orientation to allow for different layouts or larger lettering. Likewise, the dimensions of the entire project can be scaled as needed.
+
+However, when increasing the size of the panel, the number of LEDs should also be increased accordingly to maintain uniform and sufficiently bright illumination. Depending on the size, a longer LED strip or a strip with a higher LED density may be required.
 
 ## Quick start
 
